@@ -1,0 +1,21 @@
+{
+  "featured": {
+    "eyebrow": "Juegos",
+    "title": "Contenido para los que se quedan hasta el final.",
+    "games": ["Dead By Daylight", "Minecraft", "Warzone"]
+  },
+  "community": {
+    "eyebrow": "Comunidad",
+    "title": "El Pack de Kuto",
+    "description": "Descarga el pack de texturas de la comunidad: Los Cheiders y Las Eskins.",
+    "link": {
+      "label": "Descargar pack",
+      "url": "https://drive.google.com/drive/folders/16d3rHHZC_ujk9FyuCsxOH9_9L3MjquYi?usp=sharing"
+    }
+  },
+  "runner": {
+    "eyebrow": "Mini mundo",
+    "title": "Salta bloques, rompe la rutina.",
+    "description": "Haz click aqui y juega con espacio. El mundo se mueve, Kuto salta y los bloques aparecen como en una noche rara de Minecraft."
+  }
+}

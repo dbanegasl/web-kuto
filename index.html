@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing oficial de KUTO GG: directos diarios en Twitch, comunidad, redes y contenido de Minecraft, Dead by Daylight y Warzone."
+      data-meta="description"
+    />
+    <meta property="og:title" content="KUTO GG | Directos diarios en Twitch" data-meta="title" />
+    <meta
+      property="og:description"
+      content="Únete al stream de KUTO GG, entra al Discord y sigue todas sus redes oficiales."
+      data-meta="description"
+    />
+    <meta property="og:image" content="https://linken.me/data/logos/20220222-kuto-01.png" data-meta="image" />
+    <meta property="og:type" content="website" />
+    <title>KUTO GG | Streamer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content glass-card" data-reveal>
+          <a class="live-pill" href="https://www.twitch.tv/kuto_gg" target="_blank" rel="noreferrer" data-link="hero.badge.url">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span data-content="hero.badge.label">En vivo ahora en Twitch</span>
+          </a>
+
+          <p class="eyebrow" data-content="hero.eyebrow">KUTO GG</p>
+          <h1 id="hero-title" data-content="hero.title">Directos con energía, comunidad y puro gaming.</h1>
+          <p class="hero__copy" data-content="hero.description">
+            Kevin Banegas, creador de contenido de Ecuador. Streams diarios de Minecraft,
+            Dead by Daylight, Warzone y momentos con una comunidad 21+.
+          </p>
+
+          <div class="hero__actions" aria-label="Acciones principales">
+            <a class="button button--primary" href="https://www.twitch.tv/kuto_gg" target="_blank" rel="noreferrer" data-link="hero.actions.0.url" data-content="hero.actions.0.label">
+              Ver stream
+            </a>
+            <a class="button button--ghost" href="https://discord.gg/MJFGgtMKug" target="_blank" rel="noreferrer" data-link="hero.actions.1.url" data-content="hero.actions.1.label">
+              Entrar al Discord
+            </a>
+          </div>
+
+          <dl class="schedule-card" data-list="hero.schedule">
+            <div>
+              <dt>Horario</dt>
+              <dd>Todos los días · 7:00 PM</dd>
+            </div>
+            <div>
+              <dt>Zona</dt>
+              <dd>Ecuador, México, Perú y Colombia</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual glass-card" aria-label="Logo de KUTO GG" data-label="hero.visual.label" data-reveal data-tilt>
+          <div class="orb orb--one"></div>
+          <div class="orb orb--two"></div>
+          <img src="https://linken.me/data/logos/20220222-kuto-01.png" alt="KUTO GG" data-image="hero.visual.logo" data-alt="hero.visual.logoAlt" />
+          <div class="stream-card">
+            <span data-content="hero.visual.streamLabel">STREAM</span>
+            <strong data-content="hero.visual.streamName">kuto_gg</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="minecraft-runner" aria-labelledby="runner-title" data-reveal>
+        <div class="runner-copy">
+          <p class="eyebrow" data-content="content.runner.eyebrow">Mini mundo</p>
+          <h2 id="runner-title" data-content="content.runner.title">Salta bloques, rompe la rutina.</h2>
+          <p data-content="content.runner.description">Haz click aqui y juega con espacio. El mundo se mueve, Kuto salta y los bloques aparecen como en una noche rara de Minecraft.</p>
+        </div>
+
+        <div class="runner-game" data-runner tabindex="0" role="button" aria-label="Mini juego: click o espacio para saltar">
+          <div class="runner-sky" aria-hidden="true">
+            <span class="runner-cloud runner-cloud--one"></span>
+            <span class="runner-cloud runner-cloud--two"></span>
+            <span class="runner-sun"></span>
+          </div>
+          <div class="runner-world" aria-hidden="true">
+            <div class="runner-player" data-runner-player>
+              <span class="runner-player__headset"></span>
+              <span class="runner-player__head"></span>
+              <span class="runner-player__body"></span>
+              <span class="runner-player__arm runner-player__arm--left"></span>
+              <span class="runner-player__arm runner-player__arm--right"></span>
+              <span class="runner-player__leg runner-player__leg--left"></span>
+              <span class="runner-player__leg runner-player__leg--right"></span>
+            </div>
+            <div class="runner-obstacles" data-runner-obstacles></div>
+            <div class="runner-coins" data-runner-coins></div>
+            <div class="runner-ground"></div>
+          </div>
+          <div class="runner-hud">
+            <span data-runner-status>Click aqui</span>
+            <strong><span data-runner-score>0</span> pts</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-grid" aria-label="Contenido destacado">
+        <article class="panel panel--featured glass-card" data-reveal>
+          <p class="eyebrow" data-content="content.featured.eyebrow">Juegos</p>
+          <h2 data-content="content.featured.title">Contenido para los que se quedan hasta el final.</h2>
+          <div class="game-list" data-list="content.featured.games">
+            <span>Dead By Daylight</span>
+            <span>Minecraft</span>
+            <span>Warzone</span>
+          </div>
+        </article>
+
+        <article class="panel glass-card" data-reveal>
+          <p class="eyebrow" data-content="content.community.eyebrow">Comunidad</p>
+          <h2 data-content="content.community.title">El Pack de Kuto</h2>
+          <p data-content="content.community.description">Descarga el pack de texturas de la comunidad: Los Cheiders y Las Eskins.</p>
+          <a class="text-link" href="https://drive.google.com/drive/folders/16d3rHHZC_ujk9FyuCsxOH9_9L3MjquYi?usp=sharing" target="_blank" rel="noreferrer" data-link="content.community.link.url" data-content="content.community.link.label">
+            Descargar pack
+          </a>
+        </article>
+      </section>
+
+      <section class="links-section glass-card" aria-labelledby="links-title" data-reveal>
+        <div>
+          <p class="eyebrow" data-content="social.eyebrow">Redes oficiales</p>
+          <h2 id="links-title" data-content="social.title">Síguelo en todas partes</h2>
+          <p class="links-note" data-content="social.note">Perfil actualizado 21+. También están los enlaces oficiales de apoyo y contenido para adultos.</p>
+        </div>
+
+        <div class="social-grid" data-list="social.links">
+          <a href="https://www.twitch.tv/kuto_gg" target="_blank" rel="noreferrer">Twitch</a>
+          <a href="https://www.youtube.com/channel/UCDN-jMN-Q2_m0aWKei48WRw/videos" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://discord.gg/MJFGgtMKug" target="_blank" rel="noreferrer">Discord</a>
+          <a href="https://www.instagram.com/kuto_gg/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.tiktok.com/@kutogg" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.facebook.com/kutogg/" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://chat.whatsapp.com/GhbsmzX8Jxb2zz0h8FAi74" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="https://onlyfans.com/kutokonkon" target="_blank" rel="noreferrer">OnlyFans 21+</a>
+          <a href="https://paypal.me/duotics" target="_blank" rel="noreferrer">Apoyar por PayPal</a>
+          <a href="https://www.facebook.com/becomesupporter/kutogg/" target="_blank" rel="noreferrer">Colab Facebook</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "documentTitle": "KUTO GG | Streamer",
+    "title": "KUTO GG | Directos diarios en Twitch",
+    "description": "\u00danete al stream de KUTO GG, entra al Discord y sigue todas sus redes oficiales.",
+    "image": "https://linken.me/data/logos/20220222-kuto-01.png"
+  },
+  "badge": {
+    "label": "En vivo ahora en Twitch",
+    "url": "https://www.twitch.tv/kuto_gg"
+  },
+  "eyebrow": "KUTO GG",
+  "title": "Directos con energ\u00eda, comunidad y puro gaming.",
+  "description": "Kevin Banegas, creador de contenido de Ecuador. Streams diarios de Minecraft, Dead by Daylight, Warzone y momentos con una comunidad 21+.",
+  "actions": [
+    {
+      "label": "Ver stream",
+      "url": "https://www.twitch.tv/kuto_gg"
+    },
+    {
+      "label": "Entrar al Discord",
+      "url": "https://discord.gg/MJFGgtMKug"
+    }
+  ],
+  "schedule": [
+    {
+      "label": "Horario",
+      "value": "Todos los d\u00edas \u00b7 7:00 PM"
+    },
+    {
+      "label": "Zona",
+      "value": "Ecuador, M\u00e9xico, Per\u00fa y Colombia"
+    }
+  ],
+  "visual": {
+    "label": "Logo de KUTO GG",
+    "logo": "https://linken.me/data/logos/20220222-kuto-01.png",
+    "logoAlt": "KUTO GG",
+    "streamLabel": "STREAM",
+    "streamName": "kuto_gg"
+  }
+}
