@@ -31,13 +31,21 @@ const renderList = (element, path, items) => {
   }
 
   if (path === "social.links") {
-    element.replaceChildren(...items.map(({ label, url }) => {
+    element.replaceChildren(...items.map(({ label, url, icon }) => {
       const link = document.createElement("a");
 
       link.href = url;
       link.target = "_blank";
       link.rel = "noreferrer";
-      link.textContent = label;
+
+      if (icon) {
+        const i = document.createElement("i");
+        i.className = icon;
+        i.setAttribute("aria-hidden", "true");
+        link.append(i, " ", label);
+      } else {
+        link.textContent = label;
+      }
 
       return link;
     }));

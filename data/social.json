@@ -3,45 +3,15 @@
   "title": "S\u00edguelo en todas partes",
   "note": "Perfil actualizado 21+. Tambi\u00e9n est\u00e1n los enlaces oficiales de apoyo y contenido para adultos.",
   "links": [
-    {
-      "label": "Twitch",
-      "url": "https://www.twitch.tv/kuto_gg"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://www.youtube.com/channel/UCDN-jMN-Q2_m0aWKei48WRw/videos"
-    },
-    {
-      "label": "Discord",
-      "url": "https://discord.gg/MJFGgtMKug"
-    },
-    {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/kuto_gg/"
-    },
-    {
-      "label": "TikTok",
-      "url": "https://www.tiktok.com/@kutogg"
-    },
-    {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/kutogg/"
-    },
-    {
-      "label": "WhatsApp",
-      "url": "https://chat.whatsapp.com/GhbsmzX8Jxb2zz0h8FAi74"
-    },
-    {
-      "label": "OnlyFans 21+",
-      "url": "https://onlyfans.com/kutokonkon"
-    },
-    {
-      "label": "Apoyar por PayPal",
-      "url": "https://paypal.me/duotics"
-    },
-    {
-      "label": "Colab Facebook",
-      "url": "https://www.facebook.com/becomesupporter/kutogg/"
-    }
+    { "label": "Twitch", "icon": "fa-brands fa-twitch", "url": "https://www.twitch.tv/kuto_gg" },
+    { "label": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://www.youtube.com/channel/UCDN-jMN-Q2_m0aWKei48WRw/videos" },
+    { "label": "Discord", "icon": "fa-brands fa-discord", "url": "https://discord.gg/MJFGgtMKug" },
+    { "label": "Instagram", "icon": "fa-brands fa-instagram", "url": "https://www.instagram.com/kuto_gg/" },
+    { "label": "TikTok", "icon": "fa-brands fa-tiktok", "url": "https://www.tiktok.com/@kutogg" },
+    { "label": "Facebook", "icon": "fa-brands fa-facebook", "url": "https://www.facebook.com/kutogg/" },
+    { "label": "WhatsApp", "icon": "fa-brands fa-whatsapp", "url": "https://chat.whatsapp.com/GhbsmzX8Jxb2zz0h8FAi74" },
+    { "label": "OnlyFans 21+", "icon": "fa-solid fa-fire", "url": "https://onlyfans.com/kutokonkon" },
+    { "label": "Apoyar por PayPal", "icon": "fa-brands fa-paypal", "url": "https://paypal.me/duotics" },
+    { "label": "Colab Facebook", "icon": "fa-brands fa-facebook", "url": "https://www.facebook.com/becomesupporter/kutogg/" }
   ]
 }
